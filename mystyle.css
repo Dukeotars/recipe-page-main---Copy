@@ -1,0 +1,67 @@
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 30px;
+    font-family:cursive;
+}
+
+.simple{
+    padding:40px;
+    font-family:'Arial';
+}
+img{
+    border-radius: 50px;
+    width: 100%;
+}
+.preparation{
+    width:100%;
+    height:150px;
+    background-color:rgba(231, 191, 156, 0.664);
+    border-radius: 10px;
+    font-family:sans-serif;
+    padding:20px;
+    padding-left:90px;
+}
+
+h3{
+    color:rgb(82, 67, 7);
+    font-family:cursive;
+}
+.ingredients{
+    border-bottom: 0.5px solid burlywood ;
+    padding:40px ;
+    font-family:'Gill Sans';
+}
+.instructions{
+     border-bottom: 0.5px solid burlywood ;
+     padding:40px;
+}
+.instructions ul li{
+    color:blue;
+}
+.nutrition{
+    padding:40px;
+}
+
+.nutrition table{
+    width:100%;
+    margin:20px auto;
+    border-collapse: collapse;;
+    
+}
+
+.nutrition th,td{
+      border-bottom:1px solid burlywood;
+      
+}
+.nutrition tr:hover{
+     color:greenyellow;
+}
